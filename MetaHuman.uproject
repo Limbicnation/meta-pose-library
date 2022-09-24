@@ -39,6 +39,14 @@
 		{
 			"Name": "MovieRenderPipeline",
 			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true
 		}
 	]
 }
