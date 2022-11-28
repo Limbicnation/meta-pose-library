@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.0",
+	"EngineAssociation": "{06A02BCE-8589-4FB1-A340-6336823DBD0B}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -41,11 +41,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "HoudiniEngine",
-			"Enabled": true
-		},
-		{
-			"Name": "MetaHuman",
+			"Name": "HairStrands",
 			"Enabled": true
 		}
 	]
