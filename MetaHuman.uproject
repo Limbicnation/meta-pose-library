@@ -47,6 +47,10 @@
 		{
 			"Name": "MetaHuman",
 			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
 		}
 	]
 }
