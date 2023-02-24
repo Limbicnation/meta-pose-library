@@ -1,1 +1,1 @@
-# meta-human-poses
+# meta-pose-library
