@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -29,7 +29,9 @@
 			"SupportedTargetPlatforms": [
 				"IOS",
 				"Win64",
-				"Mac"
+				"Mac",
+				"Linux",
+				"Android"
 			]
 		},
 		{
@@ -46,7 +48,11 @@
 		},
 		{
 			"Name": "MetaHuman",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux"
+			]
 		},
 		{
 			"Name": "DarkerNodes",
