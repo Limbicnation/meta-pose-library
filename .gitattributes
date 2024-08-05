@@ -1,1 +1,27 @@
+# Unreal Engine specific content
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+
+# Source code and text files
+*.cpp text
+*.h text
+*.ini text
+*.uproject text
+*.txt text
+* text=auto
+
+# Specify line endings explicitly
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Media and assets
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+
+# Fallback for other content files
 Content/** filter=lfs diff=lfs merge=lfs -text
