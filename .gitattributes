@@ -5,7 +5,7 @@
 # Source code and text files
 *.cpp text
 *.h text
-*.ini text
+*.ini text eol=lf
 *.uproject text
 *.txt text
 * text=auto
